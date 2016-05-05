@@ -11,22 +11,6 @@ struct str_Interno {
 	int alta;
 };
 
-struct str_Interno internos[20];
-int curP = 0;
-
-void cadastra();
-void alta();
-
-int main(void)
-{
-	srand(0);
-	do
-	{
-		printf("O que deseja fazer?\n");
-		printf("\t1. Cadastrar\n");
-		printf("\t2. Alta\n");
-		printf("\t3. Sair\n");
-		switch(getch())
 		{
 			case '1':	cadastra(); break;
 			case '2':	alta(); break;
